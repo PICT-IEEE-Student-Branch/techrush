@@ -1,26 +1,34 @@
-# PISB Events Archive
+# TechRush — PISB Hackathon
 
-Rulebooks, problem statements and question papers from **PICT IEEE Student Branch (PISB)** events. Use them as a starting point when you organise the next edition.
+**TechRush** is the hackathon run by the **PICT IEEE Student Branch (PISB)**. Teams pick problem statements across domains and build a working solution over about a week. This repository keeps each edition's rulebook and problem statements, so the next organising team can start from them.
 
-## Index
+## Editions
 
-| Event | Edition | What's here |
-|---|---|---|
-| **TechRush** (PISB hackathon) | 2024 | [Rulebook](techrush-2024/rulebook.pdf): teams of 2–4, fee waived if a team has a PISB member, domains (Frontend Web/App, AI/ML, Full Stack), allowed tech stacks, a GitHub repo required to prove the work is original · [Problem statements](techrush-2024/problem-statements.pdf) |
-| **Enigma** @ Credenz | 2024 | [Wildcard round question paper](credenz-2024-enigma/wildcard-round-paper.pdf) ([docx](credenz-2024-enigma/wildcard-round-paper.docx)): 30 questions at three difficulty levels (1★ = 2, 2★ = 4, 3★ = 6 marks), 120 marks, no negative marking, team of 2 |
-| **Xodia** @ Credenz | 2025 | Angry Birds RL competition (environment, baseline, evaluation harness) → [`xodia-credenz-2025`](https://github.com/PICT-IEEE-Student-Branch/xodia-credenz-2025) |
-| **Xodia** @ Credenz | 2026 | Stranger Things multi-agent Q-learning competition → [`xodia-credenz-2026`](https://github.com/PICT-IEEE-Student-Branch/xodia-credenz-2026) |
+| Edition | Material |
+|---|---|
+| **TechRush 2024** | [Rulebook](2024/rulebook.pdf) · [Problem statements](2024/problem-statements.pdf) |
+| TechRush 2025 | 🔜 coming soon |
+| TechRush 2026 | 🔜 coming soon |
+
+### TechRush 2024 at a glance
+- **Teams:** 2–4 members. The registration fee is waived if a team has at least one PISB member.
+- **Domains:** Frontend Development (Web/App), AI/ML, Full Stack Development.
+- **Tech stacks** (Web): Django/DRF, HTML/CSS (Bootstrap/Tailwind), JS, React, Node/Express, Next.js, MongoDB/SQL/Postgres. **App:** Flutter.
+- Each team chooses two problem-statement preferences and is assigned one.
+- A GitHub repo with a proper README is **mandatory**, as proof that the work was built from scratch.
+- Problem statements released 12 July 2024, with evaluation on 21 July 2024.
 
 ## Repository structure
 
 ```
-events-archive/
-├── techrush-2024/          rulebook.pdf, problem-statements.pdf
-└── credenz-2024-enigma/    wildcard-round-paper.pdf / .docx
+techrush/
+└── <year>/   rulebook.pdf, problem-statements.pdf, notes for organisers
 ```
 
-Code-heavy events, such as each Xodia edition, get their own repository so that they can be cloned and run.
+## Adding an edition
 
-## Contributing
+Add `<year>/` with the rulebook, problem statements and a short organiser's note (what worked, what to change). **Never commit** registration sheets, team lists or participants' contact details.
 
-Add each edition as `<event>-<year>/`. Include rulebooks, problem statements and question papers (answer keys only once the event is over). **Do not commit** registration sheets, participant lists, leaderboards with names, or participants' submissions.
+---
+
+Looking for Credenz events (Enigma, Xodia, Reverse Coding, …)? See [`credenz`](https://github.com/PICT-IEEE-Student-Branch/credenz).

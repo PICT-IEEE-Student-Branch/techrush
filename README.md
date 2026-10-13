@@ -43,4 +43,4 @@ techrush/
 
 ---
 
-Part of the [PICT IEEE Student Branch](https://github.com/PICT-IEEE-Student-Branch) · Looking for Credenz events? See [`credenz`](https://github.com/PICT-IEEE-Student-Branch/credenz).
+Part of the [PICT IEEE Student Branch](https://github.com/PICT-IEEE-Student-Branch) · Looking for Credenz events? See [the org page](https://github.com/PICT-IEEE-Student-Branch).
